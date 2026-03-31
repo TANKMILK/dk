@@ -11,6 +11,20 @@ $(function () {
         })
     })
 
+    $('.projects').click(function (event) {
+        event.preventDefault()
+        $('html,body').animate({
+            scrollTop: 1400
+        }, 940)
+    })
+
+    $('.contact').click(function (event) {
+        event.preventDefault()
+        $('html,body').animate({
+            scrollTop: 2240
+        }, 940)
+    })
+
     $(window).scroll(function () {
         $('main section').each(function () {
             if ($(this).offset().top <= $(window).scrollTop() + 140) {
@@ -20,32 +34,6 @@ $(function () {
             }
         })
     })
-
-    // $('.gallery').each(function (index, el) {
-    //     // $(el).mouseenter(function () {
-    //     //     $(this).find('video')[0].play()
-    //     // })
-    //     // $(el).mouseleave(function () {
-    //     //     $(this).find('video')[0].pause()
-    //     //     $(this).find('video')[0].currentTime = 0
-    //     // })
-    //     $(el).click(function () {
-    //         // const title = $(this).find('h3').text()
-    //         // const text = $(this).find('p').text()
-    //         // const videolink = $(this).find('video').attr('src')
-
-    //         // $('.popup').find('h2').text(title)
-    //         // $('.popup').find('p').text(text)
-    //         // $('.popup').find('video').attr('src', videolink)
-
-    //         $('.popup').addClass('on')
-    //         // $('.popup').find('video')[0].play()
-    //     })
-    // })
-
-    // $('.popup span').click(function () {
-    //     $('.popup').removeClass('on')
-    // })
 
     Carousel(
         document.getElementById("myCarousel"),
@@ -66,7 +54,7 @@ $(function () {
     // 햄버거를 클릭했을 때 할 일
     $('.hamburger').click(function () {
         // 모바일메뉴가 나와
-        $('.mobilemenu').slideToggle(500)
+        $('.mobilemenu').slideToggle(700)
     })
     $('.logo').click(function (event) {
         event.preventDefault()

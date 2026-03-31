@@ -35,12 +35,13 @@
     <link rel="stylesheet" href="css/index.css">
     <script src="https://code.jquery.com/jquery-3.7.1.min.js"
         integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/index.js"></script>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.lazyload.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.arrows.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.thumbs.css" />
-    <script src="js/index.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.sidebar.css" />
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/fancybox/fancybox.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.umd.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@6.1/dist/carousel/carousel.lazyload.umd.js"></script>
@@ -87,8 +88,8 @@
             <div class="introduce">
                 <div class="myself">
                     <p>▶ 이름 : 권동겸</p>
-                    <p>▶ 생년월일 : 1988년 7월 9일</p>
                     <p>▶ 거주지 : 대구광역시 서구</p>
+                    <p>▶ 혈액형 : B형</p>
                     <p>▶ MBTI : INTJ</p>
                     <p>▶ 전공 : 멀티미디어과</p>
                     <p>▶ 이메일 : musso10000@gmail.com</p>
@@ -118,81 +119,26 @@
         <section class="portfolio">
             <h1>포트폴리오</h1>
             <h2>Portfolio</h2>
-            <!-- <ul class="gallery">
-                <li>
-                    <div class="content">
-                        <h2>모션그래픽
-                            <p>Motion Graphic Design</p>
-                            <br>
-                            <p class="clclick">클릭시 이동</p>
-                        </h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="content">
-                        <h2>상세페이지
-                            <p>Product Detail Page</p>
-                            <br>
-                            <p class="clclick">클릭시 이동</p>
-                        </h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="content">
-                        <h2>3D
-                            <p>3D Graphic Design</p>
-                            <br>
-                            <p class="clclick">클릭시 이동</p>
-                        </h2>
-                    </div>
-                </li>
-                <li>
-                    <div class="content">
-                        <h2>AI
-                            <p>AI Design</p>
-                            <br>
-                            <p class="clclick">클릭시 이동</p>
-                        </h2>
-                    </div>
-                </li>
-            </ul>
-            <div class="popup">
-                <div class="art">준비중입니다.</div>
-                <span>Close</span>
-            </div>
-            <div class="popup">
-                <div class="art">준비중입니다.</div>
-                <span>Close</span>
-            </div>
-            <div class="popup">
-                <div class="art">준비중입니다.</div>
-                <span>Close</span>
-            </div>
-            <div class="popup">
-                <div class="art">준비중입니다.</div>
-                <span>Close</span>
-            </div>
-            </div> -->
             <div class="f-carousel" id="myCarousel">
-                <div class="f-carousel__slide" data-fancybox="gallery" data-src='images/메타몽.jpg'
-                    data-thumb-src='images/메타몽.jpg'>
-                    <img data-lazy-src='images/메타몽.jpg' width="1920" height="1080" alt="Image #1" />
+                <div class="f-carousel__slide" data-fancybox="gallery" data-src='images/room.png'
+                    data-thumb-src='images/room.png'>
+                    <img data-lazy-src='images/room.png' width="1920" height="1080" alt="Image #1" />
                 </div>
-                <div class="f-carousel__slide" data-fancybox="gallery" data-src='images/병오년양말 상세01.jpg'
-                    data-thumb-src='images/병오년양말 상세01.jpg'>
-                    <img data-lazy-src='images/병오년양말 상세01.jpg' width="1920" height="1080" alt="Image #2" />
+                <div class="f-carousel__slide" data-fancybox="gallery" data-src='images/socksdetail.jpg'
+                    data-thumb-src='images/socksthumb.jpg'>
+                    <img data-lazy-src='images/socks01.jpg' width="1920" height="1080" alt="Image #2" />
                 </div>
-                <div class="f-carousel__slide" data-fancybox="gallery" data-src='images/fake 3D.jpg'
+                <div class="f-carousel__slide" data-fancybox="gallery" data-src='movies/fake3dcar.mp4'
                     data-thumb-src='images/fake 3D.jpg'>
                     <img data-lazy-src='images/fake 3D.jpg' width="1920" height="1080" alt="Image #3" />
                 </div>
-                <div class="f-carousel__slide" data-fancybox="gallery" data-src="https://lipsum.app/id/62/1920x1080"
-                    data-thumb-src="https://lipsum.app/id/62/1920x1080">
-                    <img data-lazy-src="https://lipsum.app/id/62/1920x1080" width="1920" height="1080" alt="Image #4" />
+                <div class="f-carousel__slide" data-fancybox="gallery" data-src="movies/typhoBaddie.mp4"
+                    data-thumb-src="images/typhobaddie.jpg">
+                    <img data-lazy-src="images/typhobaddie.jpg" width="1920" height="1080" alt="Image #4" />
                 </div>
-                <div class="f-carousel__slide" data-fancybox="gallery" data-src="https://lipsum.app/id/63/1920x1080"
-                    data-thumb-src="https://lipsum.app/id/63/1920x1080">
-                    <img data-lazy-src="https://lipsum.app/id/63/1920x1080" width="1920" height="1080" alt="Image #5" />
+                <div class="f-carousel__slide" data-fancybox="gallery" data-src="movies/boochan.mp4"
+                    data-thumb-src="images/boochan.png">
+                    <img data-lazy-src="images/boochan.jpg" width="1920" height="1080" alt="Image #5" />
                 </div>
             </div>
         </section>

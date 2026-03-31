@@ -74,7 +74,6 @@ header {
 
 .mobilemenu {
     display: none;
-    transition: all 2s;
 }
 
 header ul li:hover {
@@ -101,9 +100,9 @@ main .home {
 }
 
 main .home .psa {
-    width: 130px;
-    height: 130px;
-    background-image: url('../images/ronald.png');
+    width: 200px;
+    height: 200px;
+    background-image: url('../images/kdk131.jpg');
     border: 3px solid rgb(210, 170, 255);
     border-radius: 50%;
     position: relative;
@@ -346,104 +345,6 @@ main .portfolio {
     font-size: 35px;
 }
 
-/* .content h2,
-.clclick {
-    font-family: 'WatermelonYang';
-}
-
-.content p {
-    font-size: 17px;
-}
-
-.gallery {
-    width: 100%;
-    height: 80vh;
-    margin-top: 40px;
-    display: flex;
-    overflow: hidden;
-}
-
-.gallery li {
-    border: 2px solid #ac85eb;
-    position: relative;
-    flex: 1;
-    transition: all 1s;
-}
-
-.gallery li:hover {
-    flex: 3;
-    cursor: pointer;
-}
-
-.gallery li:nth-child(1) {
-    background: url('../images/fake\ 3D.jpg') no-repeat center/cover;
-}
-
-.gallery li:nth-child(2) {
-    background: url('../images/병오년양말\ 상세01.jpg') no-repeat center/cover;
-}
-
-.gallery li:nth-child(3) {
-    background: url('../images/권동겸_room.png') no-repeat center/cover;
-}
-
-.gallery li:nth-child(4) {
-    background: url('../images/ai-rhyno.png') no-repeat center/cover;
-}
-
-.gallery li .content {
-    position: absolute;
-    width: 100%;
-    height: 250px;
-    background-color: #070138;
-    color: #fff;
-    bottom: -300px;
-    line-height: 1.7;
-    padding-top: 50px;
-    text-align: center;
-    transition: all .7s;
-}
-
-.gallery li:hover .content {
-    bottom: 0;
-}
-
-.popup {
-    position: fixed;
-    width: 100%;
-    height: 100%;
-    top: 0;
-    left: -100%;
-    background-color: #010222;
-    z-index: 99;
-    padding: 20vh 7vw 14vh 20vw;
-    display: flex;
-    justify-content: space-between;
-    transition: all .5s;
-}
-
-.popup.on {
-    left: 0;
-}
-.popup .art{
-    background-image: url('../images/권동겸_room.png'
-    );
-}
-
-.popup span {
-    position: absolute;
-    top: 100px;
-    right: 20px;
-    cursor: pointer;
-    color: yellow;
-    font-size: 2rem;
-    transition: all .4s;
-}
-
-.popup span:hover {
-    transform: scale(1.2);
-} */
-
 #myCarousel {
     --f-arrow-pos: 10px;
     --f-arrow-bg: rgba(255, 255, 255, 0.75);
@@ -493,7 +394,7 @@ main .getintouch {
     position: relative;
     width: 80%;
     margin-top: 40px;
-    padding: 2rem 0;
+    padding: 1rem 0;
     left: 50%;
     transform: translateX(-50%);
     background-color: rgba(90, 116, 185, 0.2);
@@ -515,14 +416,14 @@ main .getintouch {
 }
 
 .letter input {
-    width: 70%;
+    width: 90%;
     height: 30px;
     font-family: 'WatermelonYang';
 }
 
 .letter textarea {
     justify-content: center;
-    width: 70%;
+    width: 90%;
     height: 230px;
     font-family: 'WatermelonYang';
 }
@@ -534,6 +435,7 @@ input[type="submit"] {
     color: #ffffff;
     border: 1px solid #e4c4ff;
     padding: 0.5em 1em;
+    margin-bottom: 10px;
     border-radius: 10px;
     font-size: 16px;
     transition: all .5s;
